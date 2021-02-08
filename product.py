@@ -1,7 +1,8 @@
 import os 
 
+#讀取檔案
 products = []
-if os.path.isfile('products.csv'):
+if os.path.isfile('products.csv'): #檢查檔案在不在
 	print('yeah! 找到檔案了!')
 else:
 	print('找不到檔案')
